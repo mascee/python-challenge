@@ -61,7 +61,7 @@ with open(analysis_txt, mode='w') as txt_file:
         txt_file.write("_________________________________\n")
         txt_file.write(f"Total Month: {total_month}\n")  
         txt_file.write(f"Total: ${net_total}\n")
-        txt_file.write(f"Average change: ${average_change}\n")
+        txt_file.write(f"Average change: ${average_change:.2f}\n")
         txt_file.write(f"Greatest Increase in Profits: {greatest_increase_date} (${greatest_increase})\n")
         txt_file.write(f"Greatest Decrease in Profits: {greatest_decrease_date} (${greatest_decrease})\n")
 

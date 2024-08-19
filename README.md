@@ -1,6 +1,9 @@
 Python challenge
 Olga Petrova
 
+I copied my Git Bash commands I used to to Word file gitBashCommands.doc
+
+
 2 tasks are performed.
 
 First program in the folder PyBank reads budget_data.txt in the Resources folder and analyses data in it.
@@ -10,7 +13,7 @@ Financial Analysis:
 _________________________________
 Total Month: 86
 Total: $22564198
-Average change: $-8311.105882352942
+Average change: $-8311.11
 Greatest Increase in Profits: Aug-16 ($1862002)
 Greatest Decrease in Profits: Feb-14 ($-1825558)
 
