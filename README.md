@@ -1,9 +1,6 @@
 Python challenge
 Olga Petrova
 
-I copied my Git Bash commands I used to to Word file gitBashCommands.doc
-
-
 2 tasks are performed.
 
 First program in the folder PyBank reads budget_data.txt in the Resources folder and analyses data in it.
