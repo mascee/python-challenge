@@ -58,3 +58,26 @@ with open(analysis_txt, mode="w") as txt_file:
 
 
 
+# Print results to the terminal
+
+print("________________________________________\n")
+print("Election Results\n")
+print("______________________________________\n")
+print(f"Total Votes: {total_votes}\n")
+print("______________________________________\n")
+
+
+#Caclulate the percemtage of votes and find the winner
+for candidate, votes in candidates.items():
+    vote_percentage = (votes/total_votes) *100
+    print(f"{candidate}: {vote_percentage:.3f}% ({votes})\n")
+
+    if votes > vote_count:
+        vote_count = votes
+        winner = candidate
+
+print("________________________________________\n")
+print(f"Winner: {winner}\n")
+print("________________________________________\n")
+
+
