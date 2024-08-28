@@ -1,6 +1,10 @@
 Python challenge
 Olga Petrova
 
+Second attempt to submit the homework.
+In my previuos sumbission I forgot to print the result to the terminal, and only printed them to text files.
+I added print to terminal for both PyBank and PyPoll. Please review my submission.
+
 2 tasks are performed.
 
 First program in the folder PyBank reads budget_data.txt in the Resources folder and analyses data in it.
