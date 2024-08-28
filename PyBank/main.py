@@ -54,6 +54,16 @@ with open(budget_data_csv) as csv_file:
     greatest_increase_date = dates[changes.index(greatest_increase)] if changes else ""
     greatest_decrease_date = dates[changes.index(greatest_decrease)] if changes else ""
 
+# Print results to the terminal
+print("Financial Analysis: \n")
+print("_________________________________\n")
+print(f"Total Month: {total_month}\n")  
+print(f"Total: ${net_total}\n")
+print(f"Average change: ${average_change:.2f}\n")
+print(f"Greatest Increase in Profits: {greatest_increase_date} (${greatest_increase})\n")
+print(f"Greatest Decrease in Profits: {greatest_decrease_date} (${greatest_decrease})\n")
+
+
 #Open PyBankAnalysis to write
 analysis_txt = os.path.join("analysis", "PyBankAnalysis.txt")
 with open(analysis_txt, mode='w') as txt_file:
@@ -66,7 +76,8 @@ with open(analysis_txt, mode='w') as txt_file:
         txt_file.write(f"Greatest Decrease in Profits: {greatest_decrease_date} (${greatest_decrease})\n")
 
                        
-                       
+
+                
 
 
 
